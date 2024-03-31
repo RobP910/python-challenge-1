@@ -71,7 +71,7 @@ place_order = True
 while place_order:
 
     # Ask the customer from which menu category they want to order
-    print("From which menu would you like to order?")
+    print("\nFrom which menu would you like to order?")
 
     # Create a variable for the menu item number
     i = 1
@@ -182,8 +182,8 @@ while place_order:
                         print(order)
                     
                 # Tell the customer that their input isn't valid
-                else:
-                    print(f"{menu_item_selection} is not a valid selection.")
+                # else:
+                #     print(f"{menu_item_selection} is not a valid selection.")
 
                 # Tell the customer they didn't select a menu option
             else:
